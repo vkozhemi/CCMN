@@ -1,0 +1,12 @@
+virtualenv venv --system-site-packages
+source venv/bin/activate
+python3 gui.py
+
+#deactivate
+
+#-------------------------------------
+pip3 install numpy
+pip3 install self
+pip3 install requests
+pip3 install pillow
+pip3 install matplotlib
