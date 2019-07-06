@@ -22,7 +22,7 @@ This app display and visualize next information:
 	5. Construct correlations between session duration and the day of the week; num- ber of connections and the day of the week; and some other correlations at your choice;
 	6. Floor congestion
 
-###Pics
+### Pics
 
 <img src="https://github.com/vkozhemi/CCMN/raw/master/img/1.png" width="600">
 
@@ -30,4 +30,23 @@ This app display and visualize next information:
 
 <img src="https://github.com/vkozhemi/CCMN/raw/master/img/3.png" width="600">
 
+### SetUp
 
+	virtualenv venv --system-site-packages
+	source venv/bin/activate
+
+Now install libraries
+
+	pip3 install numpy
+	pip3 install self
+	pip3 install requests
+	pip3 install pillow
+	pip3 install matplotlib
+
+And run
+
+	python3 gui.py
+
+Exit
+	
+	deactivate
